@@ -29,3 +29,9 @@ Runs Jest unit test and displays coverage data
 Runs the ExpressJS server
 
 The server runs at localhost:8081 for communication witht the [frontend]()
+
+# Notes
+
+Currently this returns static content from metadata template files provided in the project [BitBucket](https://bitbucket.org/siemens-disw-dp/software-development-engineer-code-project/src/master/data/)
+
+If time permits, I will be indexing this data into MongoDB and update this package on a different branch to read from MongoDB instead.
