@@ -5,7 +5,7 @@
     "clean": "rm -rf node_modules/ dist/",
     "build": "npm install && npm run eslint && tsc",
     "eslint": "npx eslint ./src ./test",
-    "start": "node ./dist/app.js",
+    "start": "node ./dist/src/app.js",
     "test": "jest --coverage --watchAll=false || exit 0"
   },
   "dependencies": {
