@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "target": "ES2015",
+    "module": "commonjs",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["./src", "./test"],
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Recommended"
+}

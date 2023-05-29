@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "coveragePathIgnorePatterns": ["src/routes/data"],
+  "modulePathIgnorePatterns": ["src/routes/data"],
+  "testPathIgnorePatterns": ["src/routes/data"]
+}
